@@ -33,10 +33,6 @@ function makeBuffer() {
     result += part;
   };
 
-  buffer.clear = function() {
-    result = '';
-  };
-
   return buffer;
 }
 
